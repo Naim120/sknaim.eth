@@ -102,7 +102,7 @@ export default async function handler(req, res) {
       balanceInUsdArbitrum,
       balanceInUsdZksync,
       balanceInUsdBnb,
-      totalassets,
+      totalassets: parseFloat(totalassets).toFixed(2),
     });
   } catch (error) {
     console.error('Error fetching wallet balance:', error);
