@@ -1,0 +1,32 @@
+{
+  "name": "sknaim.eth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ionic/react": "^8.2.4",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.4.0",
+    "ionicons": "^7.4.0",
+    "next": "14.2.4",
+    "node-fetch": "^3.3.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-ionicons": "^4.2.1",
+    "react-slick": "^0.30.2",
+    "sharp": "^0.33.4",
+    "slick-carousel": "^1.8.1",
+    "starknet": "^6.11.0",
+    "web3": "^4.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}
